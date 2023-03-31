@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rambla', sans-serif;
+}
+
+body > header {
+    background-color: #404258;
+    padding: 16px 0;
+    color: #E1CEB5;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+header nav {
+    margin: auto;
+}
+header .container {
+    display: flex;  
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #E1CEB5;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article img {
+    width: 100%;
+    overflow: hidden;
+    height: 275px;
+    border-radius: 3px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding:16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.articles article h3{
+    margin: 8px 0;
+}
+
+.articles article a {
+    background-color: #FFE7CC;
+    color: #404258;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    color: #757885;
+    transition: all ease-in-out 700ms;
+}
+
+#sports {
+    background-color: #a2a8bd;
+}
+
+#economy {
+    background-color: #50577A;
+}
+
+#entertainment {
+    background-color: #6B728E;
+}
+
+#technology {
+    background-color: #2D4263;
+}
+
+footer {
+    background-color: #2a2b35;
+    color:#FFE7CC;
+    padding: 20px;
+    text-align: center;
+}
