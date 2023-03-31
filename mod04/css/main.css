@@ -102,16 +102,53 @@ section h2 {
     background-color: #a2a8bd;
 }
 
+#sports a{
+    background-color: #757885;
+    color: #FFE7CC;
+}
+
+#sports a:hover {
+    color: #a2a8bd;
+}
+
 #economy {
     background-color: #50577A;
+    color: #FFF;
+}
+
+#economy a {
+    background-color: #E1CEB5;
+    color: #404258;
+}
+
+#economy a:hover{
+    color: #6B728E;
 }
 
 #entertainment {
     background-color: #6B728E;
 }
 
+#entertainment a {
+    background-color: #50577A;
+    color: #FFE7CC;
+}
+
+#entertainment a:hover{
+    color: #a2a8bd;
+}
+
 #technology {
     background-color: #2D4263;
+    color: #FFF;
+}
+
+#technology a{
+    color: #2a2b35;
+}
+
+#technology a:hover{
+    color: #50577A;
 }
 
 footer {
